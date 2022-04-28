@@ -13,7 +13,7 @@ body {
     rgba(100, 115, 255, 1) 100%
   );
 }
-.todo-app {
+.to-do-app {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -46,11 +46,11 @@ h1 {
   text-decoration: line-through;
 }
 
-.todo-form {
+.to-do-form {
   margin-bottom: 32px;
 }
 
-.todo-input {
+.to-do-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
   border: 2px solid rgba(17, 122, 255, 1);
@@ -58,7 +58,7 @@ h1 {
   width: 320px;
 }
 
-.todo-button {
+.to-do-button {
   padding: 16px;
   border: none;
   border-radius: 0 4px 4px 0;
@@ -73,13 +73,13 @@ h1 {
   text-transform: capitalize;
 }
 
-.todo-container {
+.to-do-container {
   display: flex;
   flex-direction: row;
   position: relative;
 }
 
-.todo-row {
+.to-do-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
