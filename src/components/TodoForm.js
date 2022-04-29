@@ -5,11 +5,12 @@ export default function TodoForm(props) {
   const handleSubmit = (e) => {
     e.preventDefault()
     props.addToDo(input)
+    // why isn't setInput being called?
     setInput("")
   }
 
   return (
-    <form onSubmit={handleSubmit} className="to-do-form">
+    <form onSubmit={ handleSubmit } className="to-do-form">
       <input
         onChange={(e) => setInput(e.target.value)}
         className="to-do-input"
